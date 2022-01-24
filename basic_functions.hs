@@ -16,9 +16,18 @@ doubleSmallNumber x = if x > 100
                         then x
                         else x*2
 
+-- Using an IF condition in a function and using the return --
+-- value to continue calculating something else --
+doubleSmallNumberIncrement x =  (if x > 100 then x else x*2) + 1
+
+-- Function names can be made up of letters, numbers, and underscores --
+-- can also have a ' in it -- 
+conanO'Brein = "It's a-me, Conan O'Brien!"
+
 -- Calling said functions - using the main function --
 main = do
   print (doubleMe 2)
   print (doubleMe 10)
   print (doubleMe 100)
   print (doubleUs 2 2)
+  print(conanO'Brein)
