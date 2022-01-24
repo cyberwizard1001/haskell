@@ -1,3 +1,6 @@
+--Variables in Haskell--
+--Authored by: Nirmal K--
+
 -- Defining a list --
 -- NOTE: Have to be of a single data type -- 
 -- Mixing datatypes not allowed --
