@@ -9,7 +9,7 @@ compoundInterest p r t = p * (1 + r / 100) ^ t
 
 
 main :: IO ()
-do
+main = do
     putStrLn "Enter the principal amount"
     principal <- getLine
     putStrLn "Enter the rate of interest"

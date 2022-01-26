@@ -5,7 +5,7 @@ triangleArea a b c = sqrt(s*(s-a)*(s-b)*(s-c))
 
 
 main :: IO ()
-do
+main = do
     putStrLn "Enter the length of the first side of the triangle"
     a <- getLine
     putStrLn "Enter the length of the second side of the triangle"

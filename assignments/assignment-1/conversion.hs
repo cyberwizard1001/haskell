@@ -15,7 +15,7 @@ convertFtToCm x = x * 30.48
 
 
 main :: IO ()
-do
+main = do
     putStrLn "Enter the distance in km"
     dist <- getLine
     let dist1 = read dist :: Double

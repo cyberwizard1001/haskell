@@ -8,7 +8,7 @@ area_sphere r = 4 * pi * r^2
 
 
 main :: IO ()
-do
+main = do
     putStrLn "Enter radius of sphere"
     radius <- getLine
     let r = read radius :: Float
