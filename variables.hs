@@ -4,10 +4,10 @@
 -- Defining a list --
 -- NOTE: Have to be of a single data type -- 
 -- Mixing datatypes not allowed --
-lostNumbers = [4,8,15,16,23,42]
+listNumbers = [4,8,15,16,23,42]
 
 -- Characters are defined inside quotes --
-lostCharacters = ['x','y','z']
+listCharacters = ['x','y','z']
 
 -- Adding lists using ++ --
 
@@ -38,6 +38,7 @@ areBothListsEqual = [3,2,1] == [2,1,0]
 
 -- Getting head and tail of a list -- 
 headOfList = head [5,4,3,2,1]
+
 -- NOTE: Tail returns list minus head --
 tailOfList = tail [5,4,3,2,1]
 

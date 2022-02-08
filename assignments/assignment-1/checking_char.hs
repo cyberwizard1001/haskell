@@ -5,11 +5,10 @@ isVowel x
     | isDigit x = "Digit"
     | otherwise = "Other"
 
-
 main :: IO()
 main = do
     putStrLn "Enter a character"
-    char <- getLine
-    putStrLn $ isVowel (head char)
+    x <- getLine
+    putStrLn $ isVowel (x !! 0)
 
 

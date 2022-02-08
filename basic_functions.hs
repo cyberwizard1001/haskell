@@ -6,6 +6,7 @@
 -- parameters and the statement to be executed --
 doubleMe x = x + x
 
+
 -- Declaring a function using other functions inside the
 -- function delcaration - lazy calling happens here --
 doubleUs x y = doubleMe x + doubleMe y
