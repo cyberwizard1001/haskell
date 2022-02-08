@@ -79,6 +79,24 @@ isElementInList = elem 3 [5,4,3,2,1]
 --making it easier to understand using infix
 isElementInList2 = 3 `elem` [5,4,3,2,1]
 
+--Tuples--
+--Tuples are used to group together data of different types --
+
+--Defining a tuple --
+tuple = (1,2,3)
+tupleWithDifferentDatatypes = (1,"hello",3.2)
+
+-- Returning first, second elements of a two element tuple --
+-- Method will notr work for tuples with more than two elements --
+firstElementOfTuple = fst (1,2)
+secondElementofTuple = snd (1,2)
+
+-- Generate a tuple using zip -- 
+-- Zip pairs up elements from two lists --
+zippedTuple = zip [1,2,3,4,5] [5,5,5,5,5]
+zippedMultipleDataTypes = zip [1,2,3,4,5] ["one","two","three","four","five"]
+
+
 -- Main -- 
 main = do
     print(lostNumbers)    
@@ -103,3 +121,6 @@ main = do
     print(productOfList)
     print(sumOfList)
     print(isElementInList)
+    print(isElementInList2)
+    print(zippedTuple)
+    print(zippedMultipleDataTypes)
