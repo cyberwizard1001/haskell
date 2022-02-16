@@ -97,6 +97,9 @@ zippedTuple = zip [1,2,3,4,5] [5,5,5,5,5]
 zippedMultipleDataTypes = zip [1,2,3,4,5] ["one","two","three","four","five"]
 
 
+-- Sum of squares of even numbers --
+sumOfSquaresOfEvenNumbers = sum [x^2 | x <- [1..20], x `mod` 2 == 0]
+
 -- Main -- 
 main = do
     print(lostNumbers)    
@@ -109,7 +112,7 @@ main = do
     print(areBothListsEqual)
     print(headOfList)
     print(tailOfList)
-    print(lastOfList)
+   // print(listOfList)
     print(initOfList)
     print(lengthOfList)
     print(isListNull)
@@ -124,3 +127,4 @@ main = do
     print(isElementInList2)
     print(zippedTuple)
     print(zippedMultipleDataTypes)
+    print(sumOfSquaresOfEvenNumbers)
